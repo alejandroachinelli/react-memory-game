@@ -1,0 +1,32 @@
+@keyframes pulse-brain {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+  
+.animate-pulse-brain {
+  animation: pulse-brain 2s infinite;
+}
+  
+.animate-pulse-brain-ring {
+  position: absolute;
+  border: 2px solid rgba(59, 130, 246, 0.3);
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  animation: pulse-brain-ring 2s infinite;
+}
+  
+@keyframes pulse-brain-ring {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+}
