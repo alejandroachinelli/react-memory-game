@@ -1,70 +1,118 @@
-# Getting Started with Create React App
+# Memory Card Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Memory Card Game es una aplicación de juego de memoria desarrollada en React donde los jugadores deben hacer coincidir pares de cartas con imágenes de animales en un tablero. El juego tiene diferentes niveles de dificultad y un temporizador para aumentar el desafío.
+---
+Memory Card Game is a React-based memory game application where players need to match pairs of cards with animal images on a game board. The game features different levels of difficulty and a timer to increase the challenge.
 
-## Available Scripts
+## Características | Features
 
-In the project directory, you can run:
+- Varios niveles de dificultad: 9, 12, 15 y 18 cartas.
+- Temporizador para medir el tiempo total de juego.
+- Contador de coincidencias correctas e incorrectas.
+- Pantalla de Game Over con estadísticas y opciones para reiniciar el nivel o volver a seleccionar el nivel.
+---
+- Multiple levels of difficulty: 9, 12, 15, and 18 cards.
+- Timer to measure the total gameplay time.
+- Counter for correct and incorrect matches.
+- Game Over screen with statistics and options to reset the level or go back to level selection.
 
-### `npm start`
+## Tecnologías utilizadas | Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React
+- Redux para el manejo del estado
+- React Router para la navegación
+- TailwindCSS para el diseño y estilos
+- Servicio REST para obtener imágenes de animales
+---
+- React
+- Redux for state management
+- React Router for navigation
+- TailwindCSS for design and styling
+- REST service for fetching animal images
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Capturas de pantalla | Screenshots
 
-### `npm test`
+![Home](public/images/Home.png)
+![Level Selection](public/images/LevelSelection.png)
+![Game](public/images/GameInit.png)
+![Game](public/images/GameInit2.png)
+![Game End](public/images/GameEnd.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Instalación | Installation
 
-### `npm run build`
+1. Clona el repositorio: `git clone https://github.com/alejandroachinelli/react-memory-game.git`
+2. Instala las dependencias: `npm install`
+3. Inicia la aplicación: `npm start`
+---
+1. Clone the repository: `git clone https://github.com/alejandroachinelli/react-memory-game.git`
+2. Install dependencies: `npm install`
+3. Start the application: `npm start`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Uso | Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Ingresa tu nombre de usuario y luego has click en Next para avanzar
+- Selecciona el nivel de dificultad.
+- El Juego de Memoria ofrece cuatro niveles de dificultad, cada uno con una cantidad diferente de cartas para emparejar:
+1. **Fácil**:
+   - Número de Cartas: 9
+   - Descripción: Una opción perfecta para principiantes para familiarizarse con las mecánicas del juego.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Medio**:
+   - Número de Cartas: 12
+   - Descripción: Un desafío moderado que requiere un poco más de memoria y enfoque.
 
-### `npm run eject`
+3. **Difícil**:
+   - Número de Cartas: 15
+   - Descripción: Adecuado para jugadores experimentados que desean un mayor desafío y más cartas para emparejar.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. **Experto**:
+   - Número de Cartas: 18
+   - Descripción: Para los verdaderos maestros de la memoria que pueden manejar una gran cantidad de cartas y un alto nivel de dificultad.
+- Haz clic en las cartas para encontrar pares coincidentes.
+- El temporizador comenzará cuando se revelen las cartas por primera vez.
+- Intenta hacer coincidir todas las cartas antes de que se agote el tiempo.
+---
+- Enter your user name and then click Next to proceed
+- Select the difficulty level.
+The Memory Game offers four levels of difficulty, each with a different number of cards to match:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Easy**:
+   - Number of Cards: 9
+   - Description: A perfect choice for beginners to get familiar with the game mechanics.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. **Normal**:
+   - Number of Cards: 12
+   - Description: A moderate challenge that requires a bit more memory and focus.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. **Hard**:
+   - Number of Cards: 15
+   - Description: Suitable for experienced players who want a greater challenge and more cards to match.
 
-## Learn More
+4. **Very Hard**:
+   - Number of Cards: 18
+   - Description: For the true memory masters who can handle a large number of cards and a high level of difficulty.
+- Click on cards to find matching pairs.
+- The timer will start when the cards are first revealed.
+- Try to match all cards before the time runs out.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contribución | Contribution
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+¡Todas las contribuciones, recomendaciones y consejos son bienvenidos para mejorar este proyecto! Si tienes alguna idea para agregar nuevas características, mejorar la usabilidad o solucionar problemas, no dudes en colaborar. Aquí hay algunas formas en las que puedes contribuir:
 
-### Code Splitting
+- **Reportar problemas**: Si encuentras algún problema o error en el juego, por favor, abre un problema en el repositorio. Proporciona detalles claros y concisos para que podamos entender y abordar el problema.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Sugerir mejoras**: Si tienes ideas para mejorar la experiencia de juego, la interfaz de usuario, la accesibilidad o cualquier otra cosa, no dudes en compartir tus sugerencias.
 
-### Analyzing the Bundle Size
+Puedes ponerte en contacto conmigo por correo electrónico en [alejandromartin.achinelli@gmail.com](mailto:alejandromartin.achinelli@gmail.com) o a través de mi perfil de LinkedIn [Linkedin](https://www.linkedin.com/in/alejandroachinelli/) si tienes alguna pregunta, sugerencia o simplemente quieres conversar sobre el proyecto.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Tus consejos o recomendaciones me ayudan a mejorar y crecer como desarrollador y podria hacer que este juego sea aún mejor para todos los jugadores. ¡Muchas gracias!
+---
+All contributions, recommendations, and advice are welcome to enhance this project! If you have any ideas for adding new features, improving usability, or solving issues, feel free to collaborate. Here are some ways you can contribute:
 
-### Making a Progressive Web App
+- **Report Issues**: If you come across any problems or errors in the game, please open an issue in the repository. Provide clear and concise details so that we can understand and address the problem.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **Propose Enhancements**: If you have ideas to enhance the gaming experience, user interface, accessibility, or anything else, don't hesitate to share your suggestions.
 
-### Advanced Configuration
+You can get in touch with me via email at [alejandromartin.achinelli@gmail.com](mailto:alejandromartin.achinelli@gmail.com) or through my LinkedIn profile [Linkedin](https://www.linkedin.com/in/alejandroachinelli/) if you have any questions, suggestions, or simply want to discuss the project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Your tips or recommendations help me improve and grow as a developer, which could make this game even better for all players. Thank you very much!
