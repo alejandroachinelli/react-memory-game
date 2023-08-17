@@ -1,0 +1,23 @@
+.matches-icons {
+  display: none;
+}
+  
+@media (max-width: 768px) {
+  .matches-text {
+    display: none;
+  }
+    
+  .matches-icons {
+    display: flex;
+    align-items: center;
+  }
+      
+  .matches-icons .icon {
+    display: inline;
+    margin-right: 5px;
+  }
+
+  .return-button {
+    display: none;
+  }
+}
