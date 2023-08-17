@@ -3,6 +3,7 @@
 Memory Card Game es una aplicación de juego de memoria desarrollada en React donde los jugadores deben hacer coincidir pares de cartas con imágenes de animales en un tablero. El juego tiene diferentes niveles de dificultad y un temporizador para aumentar el desafío.
 ---
 Memory Card Game is a React-based memory game application where players need to match pairs of cards with animal images on a game board. The game features different levels of difficulty and a timer to increase the challenge.
+---
 
 ## Características | Features
 
@@ -116,3 +117,4 @@ All contributions, recommendations, and advice are welcome to enhance this proje
 You can get in touch with me via email at [alejandromartin.achinelli@gmail.com](mailto:alejandromartin.achinelli@gmail.com) or through my LinkedIn profile [Linkedin](https://www.linkedin.com/in/alejandroachinelli/) if you have any questions, suggestions, or simply want to discuss the project.
 
 Your tips or recommendations help me improve and grow as a developer, which could make this game even better for all players. Thank you very much!
+---
