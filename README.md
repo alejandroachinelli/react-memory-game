@@ -117,3 +117,4 @@ All contributions, recommendations, and advice are welcome to enhance this proje
 You can get in touch with me via email at [alejandromartin.achinelli@gmail.com](mailto:alejandromartin.achinelli@gmail.com) or through my LinkedIn profile [Linkedin](https://www.linkedin.com/in/alejandroachinelli/) if you have any questions, suggestions, or simply want to discuss the project.
 
 Your tips or recommendations help me improve and grow as a developer, which could make this game even better for all players. Thank you very much!
+---
