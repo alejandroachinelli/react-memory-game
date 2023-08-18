@@ -58,7 +58,7 @@ const Timer = () => {
                     <FiArrowLeft className="text-xl cursor-pointer" />
                     <span className="ml-2 return-button">Go back</span>
                 </button>
-                <div className="text-lg">
+                <div className="text-sm md:text-md lg:text-lg xl:text-xl ">
                     <p className={`mb-2 font-semibold`}>
                         {time > 0
                             ? <span className="text-red-500">You have {time} seconds to view the cards</span>
