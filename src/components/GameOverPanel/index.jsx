@@ -28,7 +28,7 @@ const GameOverPanel = () => {
 
     return (
         <div className="flex flex-col items-center game-over-enter">
-            <p className="text-2xl font-semibold text-center mb-4">
+            <p className="text-4xl font-semibold text-center mb-4">
                 ¡Game Over!
             </p>
             <p className="text-lg text-center mb-4">

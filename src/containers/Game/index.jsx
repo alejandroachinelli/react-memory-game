@@ -50,10 +50,10 @@ const Game = () => {
                 {gameOver ? (
                     <GameOverPanel />
                 ) : (
-                    <>
+                    <div className="relative">
                         <Timer />
                         <GameBoard />
-                    </>
+                    </div>
                 )}
                 </>
             )}
