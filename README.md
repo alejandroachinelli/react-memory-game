@@ -2,55 +2,33 @@
 
 Memory Card Game es una aplicación de juego de memoria desarrollada en React donde los jugadores deben hacer coincidir pares de cartas con imágenes de animales en un tablero. El juego tiene diferentes niveles de dificultad y un temporizador para aumentar el desafío.
 ---
-Memory Card Game is a React-based memory game application where players need to match pairs of cards with animal images on a game board. The game features different levels of difficulty and a timer to increase the challenge.
----
 
-## Características | Features
-
+## Características
 - Varios niveles de dificultad: 9, 12, 15 y 18 cartas.
 - Temporizador para medir el tiempo total de juego.
 - Contador de coincidencias correctas e incorrectas.
 - Pantalla de Game Over con estadísticas y opciones para reiniciar el nivel o volver a seleccionar el nivel.
 ---
-- Multiple levels of difficulty: 9, 12, 15, and 18 cards.
-- Timer to measure the total gameplay time.
-- Counter for correct and incorrect matches.
-- Game Over screen with statistics and options to reset the level or go back to level selection.
-
-## Tecnologías utilizadas | Technologies Used
-
+## Tecnologías utilizadas
 - React
 - Redux para el manejo del estado
 - React Router para la navegación
 - TailwindCSS para el diseño y estilos
 - Servicio REST para obtener imágenes de animales
 ---
-- React
-- Redux for state management
-- React Router for navigation
-- TailwindCSS for design and styling
-- REST service for fetching animal images
-
-## Capturas de pantalla | Screenshots
-
+## Capturas de pantalla
 ![Home](public/images/Home.png)
 ![Level Selection](public/images/LevelSelection.png)
 ![Game](public/images/GameInit.png)
 ![Game](public/images/GameInit2.png)
 ![Game End](public/images/GameEnd.png)
-
-## Instalación | Installation
-
+---
+## Instalación
 1. Clona el repositorio: `git clone https://github.com/alejandroachinelli/react-memory-game.git`
 2. Instala las dependencias: `npm install`
 3. Inicia la aplicación: `npm start`
 ---
-1. Clone the repository: `git clone https://github.com/alejandroachinelli/react-memory-game.git`
-2. Install dependencies: `npm install`
-3. Start the application: `npm start`
-
-## Uso | Usage
-
+## Uso
 - Ingresa tu nombre de usuario y luego has click en Next para avanzar
 - Selecciona el nivel de dificultad.
 - El Juego de Memoria ofrece cuatro niveles de dificultad, cada uno con una cantidad diferente de cartas para emparejar:
@@ -73,6 +51,47 @@ Memory Card Game is a React-based memory game application where players need to 
 - El temporizador comenzará cuando se revelen las cartas por primera vez.
 - Intenta hacer coincidir todas las cartas antes de que se agote el tiempo.
 ---
+## Contribución
+¡Todas las contribuciones, recomendaciones y consejos son bienvenidos para mejorar este proyecto! Si tienes alguna idea para agregar nuevas características, mejorar la usabilidad o solucionar problemas, no dudes en colaborar. Aquí hay algunas formas en las que puedes contribuir:
+
+- **Reportar problemas**: Si encuentras algún problema o error en el juego, por favor, abre un problema en el repositorio. Proporciona detalles claros y concisos para que podamos entender y abordar el problema.
+
+- **Sugerir mejoras**: Si tienes ideas para mejorar la experiencia de juego, la interfaz de usuario, la accesibilidad o cualquier otra cosa, no dudes en compartir tus sugerencias.
+
+Puedes ponerte en contacto conmigo por correo electrónico en [alejandromartin.achinelli@gmail.com](mailto:alejandromartin.achinelli@gmail.com) o a través de mi perfil de LinkedIn [Linkedin](https://www.linkedin.com/in/alejandroachinelli/) si tienes alguna pregunta, sugerencia o simplemente quieres conversar sobre el proyecto.
+
+Tus consejos o recomendaciones me ayudan a mejorar y crecer como desarrollador y podria hacer que este juego sea aún mejor para todos los jugadores. ¡Muchas gracias!
+---
+
+Memory Card Game is a React-based memory game application where players need to match pairs of cards with animal images on a game board. The game features different levels of difficulty and a timer to increase the challenge.
+---
+
+## Features
+- Multiple levels of difficulty: 9, 12, 15, and 18 cards.
+- Timer to measure the total gameplay time.
+- Counter for correct and incorrect matches.
+- Game Over screen with statistics and options to reset the level or go back to level selection.
+---
+## Technologies Used
+- React
+- Redux for state management
+- React Router for navigation
+- TailwindCSS for design and styling
+- REST service for fetching animal images
+---
+## Screenshots
+![Home](public/images/Home.png)
+![Level Selection](public/images/LevelSelection.png)
+![Game](public/images/GameInit.png)
+![Game](public/images/GameInit2.png)
+![Game End](public/images/GameEnd.png)
+---
+## Installation
+1. Clone the repository: `git clone https://github.com/alejandroachinelli/react-memory-game.git`
+2. Install dependencies: `npm install`
+3. Start the application: `npm start`
+---
+## Usage
 - Enter your user name and then click Next to proceed
 - Select the difficulty level.
 The Memory Game offers four levels of difficulty, each with a different number of cards to match:
@@ -95,19 +114,8 @@ The Memory Game offers four levels of difficulty, each with a different number o
 - Click on cards to find matching pairs.
 - The timer will start when the cards are first revealed.
 - Try to match all cards before the time runs out.
-
-## Contribución | Contribution
-
-¡Todas las contribuciones, recomendaciones y consejos son bienvenidos para mejorar este proyecto! Si tienes alguna idea para agregar nuevas características, mejorar la usabilidad o solucionar problemas, no dudes en colaborar. Aquí hay algunas formas en las que puedes contribuir:
-
-- **Reportar problemas**: Si encuentras algún problema o error en el juego, por favor, abre un problema en el repositorio. Proporciona detalles claros y concisos para que podamos entender y abordar el problema.
-
-- **Sugerir mejoras**: Si tienes ideas para mejorar la experiencia de juego, la interfaz de usuario, la accesibilidad o cualquier otra cosa, no dudes en compartir tus sugerencias.
-
-Puedes ponerte en contacto conmigo por correo electrónico en [alejandromartin.achinelli@gmail.com](mailto:alejandromartin.achinelli@gmail.com) o a través de mi perfil de LinkedIn [Linkedin](https://www.linkedin.com/in/alejandroachinelli/) si tienes alguna pregunta, sugerencia o simplemente quieres conversar sobre el proyecto.
-
-Tus consejos o recomendaciones me ayudan a mejorar y crecer como desarrollador y podria hacer que este juego sea aún mejor para todos los jugadores. ¡Muchas gracias!
 ---
+## Contribution
 All contributions, recommendations, and advice are welcome to enhance this project! If you have any ideas for adding new features, improving usability, or solving issues, feel free to collaborate. Here are some ways you can contribute:
 
 - **Report Issues**: If you come across any problems or errors in the game, please open an issue in the repository. Provide clear and concise details so that we can understand and address the problem.
